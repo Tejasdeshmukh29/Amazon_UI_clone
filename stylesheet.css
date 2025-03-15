@@ -1,0 +1,377 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: border-box;
+    list-style-type: none;
+    line-height: 1.6;
+}
+
+li:hover
+{
+    cursor: pointer;
+    text-decoration: underline
+}
+
+body {
+    background-color: #e6e6e6;
+}
+
+.firstheader {
+    height: 50px;
+    width: 98vw;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 18px;
+    cursor: pointer;
+}
+
+.logoimage {
+    height: 45px;
+    width: 100px;
+    background-image: url(assets/images/images.png);
+    background-size: contain;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+}
+
+.ul {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.dtp {
+    font-size: 10px;
+    font-weight: 100;
+
+}
+
+.search {
+    display: flex;
+}
+
+
+.catogryselector {
+    display: inline;
+    color: rgb(52, 52, 52);
+    width: 50px;
+    height: inherit;
+    height: 33px;
+    background-color: #e6e6e6;
+    font-size: 10px;
+    padding-left: 8px;
+}
+
+.search_bar {
+    display: inline;
+    width: 650px;
+    height: inherit;
+    height: 30px;
+}
+
+.searchbutton {
+    height: 33px;
+    width: 35px;
+    border-radius: 0px;
+}
+
+
+.catograybutton {
+    background-color: #d2d2d2;
+    color: black;
+}
+
+
+
+.country {
+    width: 70px;
+    height: 50px;
+    display: flex;
+}
+
+#language {
+    background-color: transparent;
+    border: transparent;
+    color: #ffffff;
+    width: 40px;
+    margin-top: 5px;
+
+}
+
+.flag {
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+
+#signin {
+    font-size: 10px;
+    font-weight: 100;
+    color: #cecfcf;
+}
+
+.st {
+    font-size: 12px;
+}
+
+.cartimg {
+    height: 30px;
+    width: 30px;
+}
+
+.carttext {
+    display: inline-block;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.panal {
+    align-items: center;
+    width: 99vw;
+    height: 39px;
+    background-color: #232F3E;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+
+.lastotioninpanal {
+    margin-right: 20px;
+}
+
+#alltext {
+    font-size: 15px;
+}
+
+
+
+
+/* internal main body css */
+.fiesrcontainerbox{
+   height: 70vh;
+   width: 80vw;
+   margin-left:148px ;
+   margin-bottom: 180px;
+   background-image: url(assets/images/poster_image.jpg);
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.imagespace
+{
+    height: 35vh;
+}
+
+.maincontainer
+{
+    color:#0f1111;
+}
+
+
+.poster {
+    height: 400px;
+    width: 80vw;
+}
+
+strong{
+    color: black;
+}
+
+.firstcontainer
+{
+    width: 80vw;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.firstcontainer1
+{
+    width: 80vw;
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 148px;
+}
+
+.firstcontainer2
+{
+    width: 77.5vw;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    margin-left: 148px;
+    padding: 20px;
+}
+
+.headinginf2
+{
+  font-size: 25px;
+  font-weight: 700;
+  color: black;
+  display: block;
+  width: 75vw;
+  height:50px;
+
+}
+
+.product
+{
+  padding-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+.infoofproduct
+{
+margin-left: 25px;
+display: none;
+color: black;
+font-size: 16px;
+}
+
+.inside_container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    padding-top:10px ;
+    width: 75vw;
+    height: 400px;
+}
+
+.box
+{
+    width:280px;
+    height: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#heading_in_box
+{
+    color: black;
+    font-weight: 700;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+#imageinbox
+{
+    height: 230px;
+    width: 230px;
+    margin-left: 24px;
+}
+
+#productbottominformation
+{
+    color: #0f1111;
+    margin: 25px;
+    text-align: left;
+    margin-top: 2px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+
+.seemore
+{
+color: #2162a1;
+margin-left: 20px;
+}
+
+
+#imageinbox2
+{
+    height: 230px;
+    width: 230px;
+    margin-left: 24px;
+}
+
+
+
+
+
+/*  css footer in the page  */
+.footer1 {
+    width: 100vw;
+    height: 49px;
+    align-content: center;
+    text-align: center;
+    background-color: #232F3E;
+}
+
+.footer2 {
+    height: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: #002333;
+    font-size: 14px;
+    padding-bottom: 30px;
+}
+
+#headinginfooter2 {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.footer3
+{
+    background-color: #002333;
+    display: flex;
+    height: 80px;
+    align-content:center;
+    align-items: center;
+}
+
+.footer4 {
+    display: flex;
+    padding-top: 10px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 80px;
+    width: 100vw;
+    background-color: #0f1111;
+}
+
+.hlinefooter
+{
+    color: #cecfcf;
+}
+
+.innerfooter3{
+    display: flex;
+    width:40vw;
+    margin-left: 500px;
+    justify-content: space-evenly;
+}
+
+#Indiabutton
+{
+    text-align: center;
+    border: 1px solid white;
+    background-color: transparent;
+    width: 80px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.flag2
+{
+    width: 20px;
+    height: 20px;
+}
